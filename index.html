@@ -12,27 +12,52 @@
       href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:ital,wght@1,400;1,600&family=Prata&family=Roboto:ital,wght@0,100;0,400;1,300;1,700&display=swap"
       rel="stylesheet"
     />
+
+    <!--Script da mettere nello stylesheet-->
+    <style>
+      header {
+        text-align: center;
+      }
+      .logo {
+        height: 35px;
+      }
+
+      header p {
+        margin: 0;
+        display: block;
+        height: 35px;
+      }
+      .divmain {
+        font-family: "Prata", serif;
+        font-family: "Roboto", sans-serif;
+      }
+      .centrato {
+        text-align:center;
+    }
+    </style>
   </head>
   <body>
     <!--intestazione-->
-    <div class="divheader">
-      <header>
-        <img src="./assets/logo.png" alt="Logo Simply RECIPES" />
-        <hr />
-        <p>Part of A SIMPLY FABOULOUS THANKSHIVING</p>
-      </header>
-    </div>
+
+    <header class="header">
+      <img class="logo" src="./assets/logo.png" alt="Logo Simply RECIPES" />
+      <hr />
+      <p>Part of <b>A SIMPLY FABOULOUS THANKSHIVING</b></p>
+    </header>
+
     <!--contenuto principale-->
     <div class="divmain">
+     <div class="centrato">
       <main>
-        <h1>Focaccia with Caramelized Onions, Craberries, and Brie</h1>
+        <h1>Focaccia with Caramelized Onions,<br />Craberries, and Brie</h1>
         <p>
           Wow your taste with this festive focaccia appetizer topped with sweet
-          caramelized onions, tart cranberries, and creamy brie. It will become
+          caramelized onions, tart <br>cranberries, and creamy brie. It will become
           your favourite holiday starter!
         </p>
         <img src="./assets/focaccia.png" alt="foto focaccia" />
-        <h6>Sally Vegas</h6>
+        <h6>Image:Sally Vegas</h6>
+     </div>
         <p>
           FEATURED IN:<br /><a href="#" target="_blank">
             Cranberry Recepies That Go Beyond Sauce</a
