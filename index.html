@@ -5,46 +5,129 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS prova</title>
-    <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:ital,wght@1,400;1,600&family=Prata&family=Roboto:ital,wght@0,100;0,400;1,300;1,700&display=swap"
-      rel="stylesheet"
-    />
-
-    <!--Script da mettere nello stylesheet-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:ital,wght@1,400;1,600&family=Prata&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <!--creare collegamento allo stylesheet-->
+    <style> 
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:ital,wght@1,400;1,600&family=Prata&family=Roboto:wght@700&display=swap');
+      body{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 800px;
+        font-family: "Prata", serif;
+        font-family: "Roboto", sans-serif;
+      }
+        header {
+        text-align-last: center;
+        align-content: center;
+        width: 100%;
+        font-family: "Prata", serif;
+        font-family: "Roboto", sans-serif;
+      }
+      .logo {
+        width: 100%;
+        max-width:125px;
+        text-align: center;
+      }
+      .giallo{
+        color:rgb(248, 178, 50);
+      }
+      .marcatore{
+        background: #efee77;
+      }
+      .rosso{
+        color:red;
+      }
+      .bordino{
+        border-left:7px; color:yellow;
+      }
+      hr{
+        color:aqua;
+      }
+      .inserzione {
+        text-align: center;
+        width: 100%;
+        margin-left:10px
+        font-family: 'Prata', serif;
+        font-family: 'Roboto', sans-serif;
+      }
+      
+      h1{
+        text-align: center;
+        max-width: 800px;
+        margin-left:auto;
+        margin-right: auto;
+      }
+      h6{
+        color: rgb(185, 204, 205);height: 20px;
+        margin:0;
+        text-align: center;
+      }
+      .rosso{color:red}
+      .focaccia{
+        width:100%;
+        max: width 800px;
+        align-items: center;
+        box-shadow: 10px 10px 5px #575555;
+      }
+      .article{
+        font-family: "Prata", "serif";
+        font-family: "Roboto", "sans-serif";
+      }
+      </style>
+      <!--fine lista attributi-->
   </head>
   <body>
     <!--intestazione-->
-
     <header class="header">
-      <img class="logo" src="./assets/logo.png" alt="Logo Simply RECIPES" />
-      <hr />
-      <p>Part of <b>A SIMPLY FABOULOUS THANKSHIVING</b></p>
+      <div>
+        <img class="logo" src="./assets/logo.png" alt="Logo Simply RECIPES" />
+      </div>
+      <hr class="giallo"/>
+      <div >
+        <p classe="marcatore">Part of <b>A SIMPLY FABOULOUS THANKSGIVING</b></p>
+      </div>
     </header>
 
     <!--contenuto principale-->
-    <div class="divmain">
-     <div class="centrato">
-      <main>
+    <main>
+      <div classe="inserzione">
         <h1>Focaccia with Caramelized Onions,<br />Craberries, and Brie</h1>
-        <p>
-          Wow your taste with this festive focaccia appetizer topped with sweet
+        <div>
+          <p>Wow your taste with this festive focaccia appetizer topped with sweet
           caramelized onions, tart <br>cranberries, and creamy brie. It will become
           your favourite holiday starter!
-        </p>
-        <img class="focaccia" src="./assets/focaccia.png" alt="foto focaccia"  />
-        <h6>Image:Sally Vegas</h6>
-     </div>
+          </p>
+        </div>
+      </div>
+      <div classe"focaccia">
+        <img id="focaccia" src="./assets/focaccia.png" alt="foto focaccia"  />
+      </div>
+      <h6>Image:Sally Vegas</h6>
+      
+      <div>
+       <div classe="bordino"> 
+        <divclasse="rosso">
         <p>
-          FEATURED IN:<br /><a href="#" target="_blank">
-            Cranberry Recepies That Go Beyond Sauce</a
-          >
+          FEATURED IN:
         </p>
-
+       </div>
+       <div>
+        <p>
+          <a href="#" target="_blank">
+            Cranberry Recepies That Go Beyond Sauce
+          </a>
+        </p>
+      </div>
+        </div>
+       </div> 
+      </div>
+      <div class="article">
         <p><b>Ingredients </b></p>
-        <hr />
+        <hr/>
         <div>
           <p><b>For the focaccia:</b></p>
           <ul>
@@ -54,6 +137,7 @@
             <li>1 &frac34; cups (350g) lukewarm water</li>
             <li>&frac14; cup extra virgin olive oil, plus more for the pan</li>
           </ul>
+        </div>
         <div>
           <p><b>For the topping:</b></p>
           <ul>
@@ -64,23 +148,26 @@
               10 ounces brie, cut into cubes (scrape rind off with a paring
               knife if desired, though it's not necessary)
             </li>
-            <li>1 &frac12;cups fresh or frozen cranberries</li>
+              <li>1 &frac12;cups fresh or frozen cranberries</li>
           </ul>
         </div>
-        <div>
-          <p><b>Method</b></p>
-          <hr />
-          <ol>
-            <li>Make the focaccia dough</li>
-            <p>
-              In a medium-sized mixing bowl, or in a stan mixer with a paddle
-              attachment, mix together all the dough ingredients until the flour
-              is fully absorbed. (...)
-            </p>
-          </ol>
-        </div>
-        <p>Read more on <a href="#" target="_blank">Simply recipes</a></p>
-      </main>
-    </div>
+      </div>  
+      <p><b>Method</b></p>
+      <hr />
+      <div>
+        <ol>
+          <li>Make the focaccia dough</li>
+          <p>
+            In a medium-sized mixing bowl, or in a stan mixer with a paddle
+            attachment, mix together all the dough ingredients until the flour
+            is fully absorbed. (...)
+          </p>
+        </ol>
+      </div>
+    </main>
+    <footer>
+      <p>Read more on <a href="#" target="_blank">Simply recipes</a>
+      </p>
+    </footer>
   </body>
 </html>

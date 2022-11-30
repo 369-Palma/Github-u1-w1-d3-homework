@@ -1,29 +1,66 @@
-<style>
-      header {
-        text-align: center;
-      }
-      .logo {
-        height: 35px;
-      }
+<style> 
+body{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  font-family: "Prata", serif;
+  font-family: "Roboto", sans-serif;
+}
+  header {
+  text-align-last: center;
+  align-content: center;
+  width: 100%;
+  font-family: "Prata", serif;
+  font-family: "Roboto", sans-serif;
+}
+.logo {
+  width: 100%;
+  max-width:125px;
+  text-align: center;
+}
+.giallo{
+  color:rgb(248, 178, 50);
+}
+.marcatore{
+  background: #efee77;
+}
+.rosso{
+  color:red;
+}
+.bordino{
+  border-left:7px; color:yellow;
+}
+hr{
+  color:aqua;
+}
+.inserzione {
+  text-align: center;
+  width: 100%;
+  margin-left:10px
+  font-family: 'Prata', serif;
+  font-family: 'Roboto', sans-serif;
+}
 
-      header p {
-        margin: 0;
-        display: block;
-        height: 35px;
-      }
-      .divmain {
-        font-family: "Prata", serif;
-        font-family: "Roboto", sans-serif;
-      }
-      .centrato {
-        text-align:center;
-      }
-     
-    h6{
-        color: rgb(185, 204, 205);height: 20px;
-        margin:0
-    }
-    p div {
-    font-family:font-family: 'Roboto', sans-serif;
-    }
-    </style>
+h1{
+  text-align: center;
+  max-width: 800px;
+  margin-left:auto;
+  margin-right: auto;
+}
+h6{
+  color: rgb(185, 204, 205);height: 20px;
+  margin:0;
+  text-align: center;
+}
+.rosso{color:red}
+.focaccia{
+  width:100%;
+  max: width 800px;
+  align-items: center;
+  box-shadow: 10px 10px 5px #575555;
+}
+.article{
+  font-family: "Prata", "serif";
+  font-family: "Roboto", "sans-serif";
+}
+</style>
