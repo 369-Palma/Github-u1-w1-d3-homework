@@ -1,0 +1,29 @@
+<style>
+      header {
+        text-align: center;
+      }
+      .logo {
+        height: 35px;
+      }
+
+      header p {
+        margin: 0;
+        display: block;
+        height: 35px;
+      }
+      .divmain {
+        font-family: "Prata", serif;
+        font-family: "Roboto", sans-serif;
+      }
+      .centrato {
+        text-align:center;
+      }
+     
+    h6{
+        color: rgb(185, 204, 205);height: 20px;
+        margin:0
+    }
+    p div {
+    font-family:font-family: 'Roboto', sans-serif;
+    }
+    </style>
